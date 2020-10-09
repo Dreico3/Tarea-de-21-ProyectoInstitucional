@@ -23,4 +23,10 @@ public class ProyectoIstitucional {
     public void mostrar(){
         System.out.printf("Nombre: %s\nautoridad: %s\nPresupuesto: %.2f\n ",nombre,autoridad,ppto);
     }
+    public double getPpto(){
+        return this.ppto;
+    }
+    public void setPpto(double a){
+        this.ppto=a;
+    }
 }
